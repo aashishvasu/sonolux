@@ -2,7 +2,7 @@
 The Sonolux project aims to send LED data over the network, which can then be read by any recipient device which is capable of handling UDP signals.
 
 ## Overview
-This project aims to create a robust and scalable option for sending sound visualization data over a network to multiple devices. The idea is to send the data and use it in mainly LED projects although I'll try to keep the project more open-ended than that. To that effect, there is probably going to be another companion repo to this which will have client side code for arduino/rpi etc when I am able to get to it. Project built using [openFrameworks](https://openframeworks.cc/).
+This project aims to create a robust and scalable option for sending sound visualization data over a network to multiple devices. The idea is to send the data and use it in mainly LED projects although I'll try to keep the project more open-ended than that. To that effect, there is probably going to be another companion repo to this which will have client side code for arduino/rpi etc when I am able to get to it. Project built using [JUCE](https://juce.com/).
 
 ## TODO List
 
@@ -10,7 +10,7 @@ This project aims to create a robust and scalable option for sending sound visua
 #### General
 
 - [ ] Detect input audio devices and allow user to choose one
-- [ ] Save/Load settings using ofxXmlSettings
+- [ ] Save/Load settings (JUCE File IO??)
 - [ ] Add navigation buttons to set defaults, save settings, and proceed.
 - [ ] Simple DSP
 
